@@ -1,5 +1,5 @@
 ### Hi there 👋
-i'm Iheb Khaldi and i'm currently a ✨ Full stuck wen developer Student at Holberton School ✨ in Tunisia 🇹🇳
+i'm Iheb Khaldi and i'm currently a ✨ Full stuck we developer Student at Holberton School ✨ in Tunisia 🇹🇳
 
 some information about me:
 
