@@ -1,0 +1,140 @@
+body {
+    background: rgb(233,217,217);
+    background: linear-gradient(90deg, rgba(233,217,217,1) 0%, rgba(255,255,255,1) 100%);
+}
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.hero {
+        /* display: flex;
+        justify-content: space-around;
+        align-items: center; */
+        grid-area: 5 / 3 / 8 / 7;
+
+    }
+
+.hero-img {
+
+    grid-area: 4 / 9 / 9 / 11;
+    
+}
+
+.Logo {
+    grid-area: 1 / 1 / 2 / 2;
+    grid-area: 2 / 3 / 3 / 4;
+    font-family: 'Gayathri', 'Inter';
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+    top: -50px;
+}
+
+.hero {
+    font-family: 'Gayathri', 'Inter';
+}
+
+.hero-btn {
+    font-family: 'Gayathri';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    padding: 12px;
+    cursor: pointer;
+    max-width:137px;
+    max-height:46px;
+    margin-top: 30px;
+}
+
+.hero-paragraph {
+    font-family: 'Gayathri', 'Montserrat';
+    font-weight: 400;
+    line-height: 33px;
+    font-style: normal;
+    font-size: 32px;
+    
+}
+
+.Latest {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 13rem;
+}
+
+.btn-gh {
+    font-family: 'Gayathri';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    width: 258px;
+    height: 52px;
+    align-self: center;
+}
+.heading {
+    font-family: 'Quicksand', 'Inter';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 74px;
+}
+
+.smaller-heading
+{
+    font-family: 'Gayathri', 'Inter';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Latest-content {
+    align-self: center;
+}
+
+.Latest-description {
+    font-family: 'Gayathri', 'Inter';
+    font-size: 36px;
+    max-width: 656px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Project-List{
+    font-family: 'Gayathri', 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    font-weight: 100;
+    color: rgba(46, 46, 61, 1);
+}
+
+.About-description {
+    font-family: 'Gayathri', 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    color: rgba(69, 69, 84, 1);
+    max-width: 656px;
+}
